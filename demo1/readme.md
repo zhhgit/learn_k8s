@@ -11,5 +11,5 @@ yum install - y etcd kubernetes
 systemctl start etcd docker kube-apiserver kube-controller-manager kube-scheduler kubelet kube-proxy
 kubectl create -f mysql-rc.yaml等
 kubectl delete -f mysql-rc.yaml等
-kubectl get rc 或 pods 或者 svc
+kubectl get nodes 或者 rc 或 pods 或者 svc
 kubectl describe pod podName
